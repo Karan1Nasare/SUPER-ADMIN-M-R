@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 
 import React, { useEffect, useState } from 'react';
 import { Navigate, useOutlet } from 'react-router-dom';

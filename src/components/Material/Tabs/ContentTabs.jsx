@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import React from 'react';
 import Accordion from './Accordion';
 import Loader from '../../shared/Loader';

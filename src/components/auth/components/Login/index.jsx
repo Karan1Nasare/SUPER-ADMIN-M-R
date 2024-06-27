@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import React from 'react';
 import '../layout.css';
 import LoginForm from './loginForm';

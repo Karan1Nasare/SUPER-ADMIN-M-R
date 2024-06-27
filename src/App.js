@@ -5,8 +5,7 @@ import { Toaster } from 'react-hot-toast';
 
 import themeList from './theme';
 import AppRouter from './App.routes';
-import { ContextStoreProvider } from './store/context-store'; // eslint-disable-next-line import/no-named-as-default-member
-
+import { ContextStoreProvider } from './store/context-store'; 
 function App() {
   return (
     <div className='App'>

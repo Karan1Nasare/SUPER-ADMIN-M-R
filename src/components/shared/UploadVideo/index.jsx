@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { useDropzone } from 'react-dropzone';
 import ReactPlayer from 'react-player/file';

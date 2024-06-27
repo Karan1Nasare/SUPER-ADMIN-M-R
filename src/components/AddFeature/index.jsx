@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-console
+
 import React, { useState } from 'react';
 import { Button, Typography } from '@mui/material';
 import { useForm, FormProvider } from 'react-hook-form';

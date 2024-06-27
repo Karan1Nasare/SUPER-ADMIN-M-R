@@ -1,4 +1,3 @@
-/* eslint-disable import/no-named-as-default */
 import { createTheme } from '@mui/material/styles';
 import variants from './variants';
 import typography from './typography';

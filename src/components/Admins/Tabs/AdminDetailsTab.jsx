@@ -1,5 +1,4 @@
-/* eslint-disable import/no-named-as-default-member */
-/* eslint-disable import/no-named-as-default */
+
 import React from 'react';
 import TabTitle from '../../shared/TabTitle';
 import AdminDetailsForm from '../Form/AdminDetailsForm';

@@ -1,5 +1,4 @@
-/* eslint-disable import/no-cycle */
-/* eslint-disable no-case-declarations */
+
 import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';

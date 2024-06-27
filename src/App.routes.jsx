@@ -1,11 +1,9 @@
-/* eslint-disable consistent-return */
-/* eslint-disable array-callback-return */
-/* eslint-disable import/no-cycle */
+
 
 import React, { lazy, useEffect } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { useStore } from './store/context-store';
-import AddCourse from './components/Course/Course'; // eslint-disable-next-line import/no-named-as-default-member
+import AddCourse from './components/Course/Course'; 
 import LanguagePage from './components/Language';
 import Plan from './components/Plan';
 import ManagePlanForm from './components/Plan/ManagePlan/ManagePlanForm';

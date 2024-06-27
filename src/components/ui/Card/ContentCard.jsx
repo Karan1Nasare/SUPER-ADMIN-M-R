@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { FaRegEdit } from 'react-icons/fa';
 import { FiTrash2 } from 'react-icons/fi';

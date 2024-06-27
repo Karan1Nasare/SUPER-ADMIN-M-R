@@ -1,4 +1,3 @@
-/* eslint-disable import/no-named-as-default */
 import { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';

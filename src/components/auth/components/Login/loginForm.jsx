@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import React, { useState } from 'react';
 import { Button, TextField, Typography } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
@@ -11,7 +10,6 @@ import FormControl from '@mui/material/FormControl';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { useForm } from 'react-hook-form';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { object, string } from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Password } from '@mui/icons-material';
