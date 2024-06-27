@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family:
+    Helvetica,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom gradient backgrounds */
+.bg-locked {
+  background: linear-gradient(
+      90deg,
+      rgba(235, 0, 27, 0) 60%,
+      rgba(235, 0, 27, 0.5) 100%
+    ),
+    #0b1739;
+}
+
+.bg-unlocked {
+  background: linear-gradient(
+      90deg,
+      rgba(1, 146, 62, 0) 50%,
+      rgba(1, 146, 62, 0.5) 100%
+    ),
+    #0b1739;
+}
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
